@@ -7,7 +7,6 @@ export default function Header() {
   useEffect(() => {
     const interval = setInterval(() => {
       const currentDate = new Date()
-      console.log('Полный объект времени:', currentDate)
       setDate(currentDate)
       
     }, 1000)
